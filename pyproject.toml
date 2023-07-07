@@ -1,0 +1,17 @@
+[tool.poetry]
+name = "coding-interview"
+version = "0.1.0"
+description = ""
+authors = ["Jimmy Ma <118217969+jma-mntn@users.noreply.github.com>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.11"
+pytest = "^7.4.0"
+flask = "^2.3.2"
+requests = "^2.31.0"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
